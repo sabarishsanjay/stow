@@ -2,38 +2,40 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>STOW Updates</title>
-        <link>https://github.com/sabarishsanjay/stow</link>
+        <link>https://raw.githubusercontent.com/sabarishsanjay/stow/main/appcast.xml</link>
         <description>Most recent updates to STOW</description>
         <language>en</language>
         
-        <!-- Latest Release -->
         <item>
             <title>Version 1.0.0</title>
-            <pubDate>Mon, 15 Dec 2025 14:04:58 +0000</pubDate>
-            <sparkle:version>100</sparkle:version>
+            <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>STOW 1.0.0</h2>
-                <p>Initial release of STOW - the fastest video downloader for macOS.</p>
-                <h3>Features:</h3>
+                <h2>🎉 STOW 1.0.0 - Initial Release</h2>
+                <p>The first official release of STOW - your powerful video downloader for macOS!</p>
+                
+                <h3>Features</h3>
                 <ul>
-                    <li>Download videos from YouTube, Twitter, Instagram, TikTok, and 1000+ sites</li>
-                    <li>Support for 4K, 1080p, 720p and more quality options</li>
-                    <li>Multiple format support (MP4, MOV, MKV, MP3, etc.)</li>
-                    <li>Concurrent downloads with aria2c acceleration</li>
-                    <li>Built-in FFmpeg processing</li>
-                    <li>Custom folder organization</li>
-                    <li>Menu bar integration</li>
-                    <li>Buy me a coffee support link</li>
+                    <li>Download videos from YouTube, Vimeo, Instagram, TikTok, Twitter/X, and 1000+ sites</li>
+                    <li>Multiple quality options including 4K, 1080p, 720p, and audio-only</li>
+                    <li>Format selection: MP4, MOV, MKV, WebM, MP3, M4A, and more</li>
+                    <li>Playlist support - download entire playlists at once</li>
+                    <li>Clipboard detection - automatically detects video URLs</li>
+                    <li>Drag and drop support</li>
+                    <li>Pause, resume, and cancel downloads</li>
+                    <li>Organize downloads with custom folders</li>
+                    <li>Export as .stow bundles</li>
+                    <li>Built-in troubleshooter</li>
+                    <li>Automatic updates via Sparkle</li>
                 </ul>
             ]]></description>
             <enclosure 
                 url="https://github.com/sabarishsanjay/stow/releases/download/v1.0.0/STOW-1.0.0.zip"
-                length="140975671"
-                type="application/octet-stream"
-                sparkle:edSignature="zigF1RAN7Aq9XJiu18CLdnByVhrJQ6uS0J55uEpZiP/sMw7TDvlD87ppYo4IxDdFqNa7HrLPiVn6dP+SliOFCQ=="
-            />
+                sparkle:edSignature="vrW2NHdgJt8m+zYQ1z+5wWWzjm32gSC9axBqkp8QuCMernL/g+oqOgluXBo4JhxOJozBQ0QrenOiYc9rQ8obCg=="
+                length="141255083"
+                type="application/octet-stream"/>
         </item>
         
     </channel>
